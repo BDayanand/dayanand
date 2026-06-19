@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dayanand Badiger — Resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+      padding: 2rem 1rem;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #ffffff;
+      border: 1px solid #e0e0e0;
+      border-radius: 1rem;
+      padding: 2.5rem 2rem;
+      box-shadow: 0 8px 40px rgba(0,0,0,0.08);
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 2rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    .download-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      margin-bottom: 1rem;
+      padding: 0.45rem 1rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #fff;
+      background: #E50914;
+      border: none;
+      border-radius: 0.4rem;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .download-btn:hover { background: #c00710; }
+    .header h1 {
+      font-size: 2.25rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, #111111 0%, #E50914 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .header .title {
+      color: #666;
+      font-size: 1rem;
+      margin-top: 0.25rem;
+    }
+    .header .contact {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 0.75rem;
+      font-size: 0.875rem;
+      color: #666;
+    }
+    .header .contact a {
+      color: #E50914;
+      text-decoration: none;
+    }
+    .header .contact a:hover { text-decoration: underline; }
+    .section { margin-bottom: 1.75rem; }
+    .section h2 {
+      font-size: 1.125rem;
+      font-weight: 700;
+      color: #E50914;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.25rem;
+      border-bottom: 2px solid #e0e0e0;
+    }
+    .summary { color: #444; font-size: 0.95rem; line-height: 1.7; }
+    .skill-cat p strong { color: #E50914; }
+    .skill-cat h3 {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #666;
+      margin-bottom: 0.35rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .project, .exp-item, .edu-item, .cert-item {
+      margin-bottom: 1.25rem;
+      padding-bottom: 1.25rem;
+      border-bottom: 1px solid #eee;
+    }
+    .project:last-child, .exp-item:last-child, .edu-item:last-child, .cert-item:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+    .project h3, .exp-item h3, .edu-item h3, .cert-item h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #111;
+    }
+    .project .sub, .exp-item .company, .edu-item .institution, .cert-item .issuer {
+      color: #E50914;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+    .project .period, .exp-item .period, .edu-item .period {
+      color: #888;
+      font-size: 0.8rem;
+    }
+    .project ul, .exp-item ul {
+      list-style: none;
+      margin-top: 0.5rem;
+    }
+    .project ul li, .exp-item ul li {
+      position: relative;
+      padding-left: 1.25rem;
+      font-size: 0.9rem;
+      color: #444;
+      margin-bottom: 0.35rem;
+    }
+    .project ul li::before, .exp-item ul li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0.55rem;
+      width: 6px;
+      height: 6px;
+      background: #E50914;
+      border-radius: 50%;
+    }
+    .tech-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-top: 0.5rem;
+    }
+    .tech-tag {
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      background: rgba(229, 9, 20, 0.06);
+      color: #E50914;
+      border: 1px solid rgba(229, 9, 20, 0.2);
+    }
+
+    @media (max-width: 600px) {
+      body { padding: 1rem 0.5rem; }
+      .container { padding: 1.5rem 1rem; }
+      .header h1 { font-size: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="Dayanand%20Badiger.pdf" download class="download-btn">Download PDF</a>
+    <div class="header">
+      <h1>Dayanand Badiger</h1>
+      <div class="title">Information Science Engineering Candidate</div>
+      <div class="contact">
+        <span>+917676406262</span>
+        <a href="mailto:bdayanand21@gmail.com">bdayanand21@gmail.com</a>
+        <a href="https://www.linkedin.com/in/dayanandbadiger" target="_blank">LinkedIn</a>
+        <a href="https://github.com/BDayanand" target="_blank">GitHub</a>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Summary</h2>
+      <p class="summary">Information Science Engineering candidate with strong Python and object-oriented programming skills and hands-on experience in developing software projects. Quick learner with strong problem-solving abilities, eager to apply technical skills and contribute to software development in a professional environment.</p>
+    </div>
+
+      <div class="section skill-cat">
+      <h2>Skills</h2>
+      <p style="margin-bottom:0.4rem;"><strong>Languages:</strong> Python, JavaScript</p>
+      <p style="margin-bottom:0.4rem;"><strong>Web Technologies &amp; Frameworks:</strong> HTML, CSS, React.js, Django</p>
+      <p style="margin-bottom:0.4rem;"><strong>Databases &amp; Services:</strong> SQL, Firebase</p>
+      <p style="margin-bottom:0.4rem;"><strong>Tools &amp; Platforms:</strong> Git, GitHub, Vercel, Render</p>
+      <p style="margin-bottom:0.4rem;"><strong>Concepts:</strong> Object-Oriented Programming (OOP), REST APIs, Authentication, Deployment</p>
+    </div>
+
+    <div class="section">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>Cybersecurity Framework for Rural Digital Banking</h3>
+        <div class="sub">Final Year Project</div>
+        <ul>
+          <li>Developed a secure digital banking platform for rural users with offline transaction support, mobile banking features, and multi-factor authentication.</li>
+          <li>Built fraud detection and transaction protection mechanisms using machine learning, OTP verification, JWT authentication, and anomaly-based risk analysis.</li>
+          <li>Integrated blockchain-based transaction auditing to ensure secure, transparent, and tamper-resistant financial transaction records.</li>
+          <li>Designed an admin dashboard for fraud monitoring, complaint management, user administration, and transaction oversight.</li>
+        </ul>
+        <div class="tech-tags">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Django</span>
+          <span class="tech-tag">Machine Learning</span>
+          <span class="tech-tag">JWT</span>
+          <span class="tech-tag">Blockchain</span>
+          <span class="tech-tag">React.js</span>
+        </div>
+      </div>
+
+      <div class="project">
+        <h3>Heart Disease Prediction Using Machine Learning</h3>
+        <ul>
+          <li>Developed a web-based heart disease prediction system using Python, Flask and machine learning models for real-time risk assessment.</li>
+          <li>Implemented Random Forest, SVM, MLP and Neural Network models to predict heart disease based on patient health parameters.</li>
+          <li>Built an interactive web interface for patient data input, prediction result visualization, and user-friendly system interaction.</li>
+          <li>Designed an admin dashboard for monitoring prediction history, model performance, and overall system analytics.</li>
+        </ul>
+        <div class="tech-tags">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Flask</span>
+          <span class="tech-tag">Scikit-learn</span>
+          <span class="tech-tag">Machine Learning</span>
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Experience</h2>
+
+      <div class="exp-item">
+        <h3>Python Full Stack Development Intern (Training Program)</h3>
+        <div class="company">QSpiders</div>
+        <div class="period">Jan 2026 – May 2026</div>
+        <ul>
+          <li>Gained hands-on experience in Python, Django, HTML, CSS, JavaScript and SQL through full stack development training.</li>
+          <li>Developed a full-stack medical inventory management web application with backend development, database integration and authentication features.</li>
+          <li>Gained practical exposure to REST API basics, authentication concepts, and application deployment.</li>
+          <li>Strengthened problem-solving skills through coding exercises and Data Structures &amp; Algorithms practice in Python.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+
+      <div class="edu-item">
+        <h3>Bachelor of Engineering in Information Science and Engineering</h3>
+        <div class="institution">Dayananda Sagar College of Engineering, Bengaluru</div>
+        <div class="period">2023 – 2026</div>
+      </div>
+
+      <div class="edu-item">
+        <h3>Diploma in Computer Science and Engineering</h3>
+        <div class="institution">Government Polytechnic, Channasandra, Bengaluru</div>
+        <div class="period">2020 – 2023</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Certifications</h2>
+
+      <div class="cert-item">
+        <h3>Artificial Intelligence</h3>
+        <div class="issuer">Coursera</div>
+        <p style="color:#c0c0c0;font-size:0.9rem;margin-top:0.35rem;">Online certification covering core AI concepts, machine learning algorithms, and practical implementations.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
