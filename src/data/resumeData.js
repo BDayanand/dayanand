@@ -8,7 +8,7 @@ export const personalInfo = {
   email: 'bdayanand21@gmail.com',
   linkedin: 'https://www.linkedin.com/in/dayanandbadiger',
   github: 'https://github.com/BDayanand',
-  resumeUrl: '/resume.html',
+  resumeUrl: 'resume.html',
 };
 
 export const skills = {
@@ -25,11 +25,11 @@ export const projects = [
     subtitle: 'Final Year Project',
     bullets: [
       'Developed a secure digital banking platform for rural users with offline transaction support, mobile banking features, and multi-factor authentication.',
-      'Built fraud detection and transaction protection mechanisms using machine learning, OTP verification, JWT authentication, and anomaly-based risk analysis.',
+      'Built fraud detection and transaction protection using Machine Learning, JWT authentication, OTP verification, and anomaly detection.',
       'Integrated blockchain-based transaction auditing to ensure secure, transparent, and tamper-resistant financial transaction records.',
       'Designed an admin dashboard for fraud monitoring, complaint management, user administration, and transaction oversight.',
     ],
-    tech: ['Python', 'Django', 'Machine Learning', 'JWT', 'Blockchain', 'React.js'],
+    tech: ['React.js', 'React Native', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'Machine Learning', 'Hyperledger Fabric'],
   },
   {
     title: 'Heart Disease Prediction Using Machine Learning',
