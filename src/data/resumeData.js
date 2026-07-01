@@ -1,9 +1,9 @@
 export const personalInfo = {
   name: 'Dayanand Badiger',
   title: 'Information Science Engineering Graduate',
-  tagline: 'Python • React.js • Django',
+  tagline: 'Software Developer • Python • Full Stack Development',
   summary:
-    "Final-year Information Science Engineering student skilled in Python, JavaScript, React.js, and Django, with hands-on experience building full-stack applications, REST APIs, and ML-based systems. Recently completed a Python Full Stack Development internship at QSpiders, building a medical inventory management web app. Passionate about solving real-world problems through clean, scalable code.",
+    "Bachelor of Engineering (B.E.) graduate in Information Science and Engineering with hands-on experience developing software projects. Passionate about building secure, scalable applications using Python and modern web technologies. Currently seeking Software Developer opportunities.",
   phone: '+917676406262',
   email: 'bdayanand21@gmail.com',
   linkedin: 'https://www.linkedin.com/in/dayanandbadiger',

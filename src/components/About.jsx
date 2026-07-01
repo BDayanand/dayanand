@@ -5,7 +5,7 @@ import { personalInfo } from '../data/resumeData';
 
 const stats = [
   { icon: FiCode, label: 'Projects', value: '2+' },
-  { icon: FiAward, label: 'Certifications', value: '1+' },
+
   { icon: FiUser, label: 'Experience', value: 'Internship' },
 ];
 
@@ -57,9 +57,13 @@ export default function About() {
               {personalInfo.summary}
             </p>
             <p className="text-text-secondary leading-relaxed text-base">
-              Passionate about building secure, scalable applications and solving real-world problems
-              through code. Currently focused on full-stack development with Python and React,
-              constantly learning and exploring new technologies.
+              I am a Bachelor of Engineering (B.E.) graduate in Information Science and Engineering with a passion for software development and building practical, user-focused applications. I enjoy solving real-world problems through clean, efficient code and continuously improving my technical and problem-solving skills.
+            </p>
+            <p className="text-text-secondary leading-relaxed text-base">
+              Throughout my academic journey and internship, I gained hands-on experience by developing web applications and software projects, strengthening my understanding of modern development practices and collaborative workflows. I enjoy learning new technologies, exploring better development approaches, and applying them to create reliable and scalable solutions.
+            </p>
+            <p className="text-text-secondary leading-relaxed text-base">
+              I am currently seeking an entry-level Software Developer opportunity where I can contribute to meaningful projects, work with experienced teams, and continue growing as a software engineer.
             </p>
           </motion.div>
 
