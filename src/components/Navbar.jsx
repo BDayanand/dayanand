@@ -52,7 +52,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 md:h-20">
           <button onClick={() => scrollTo('home')} className="text-2xl font-extrabold tracking-tight">
             <span className="text-accent max-sm:drop-shadow-none drop-shadow-[0_0_8px_rgba(229,9,20,0.5)]">D</span>
-            <span className="text-text-primary">ayanand</span>
+            <span className="text-text-primary">ayanand Badiger</span>
           </button>
 
           <div className="hidden md:flex items-center gap-1">
