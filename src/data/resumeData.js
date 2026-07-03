@@ -60,6 +60,7 @@ export const experience = [
     bullets: [
       'Completed comprehensive training in Python, HTML, CSS, JavaScript, SQL and Django with a focus on full stack web development.',
       'Gained hands-on experience in Django, authentication, CRUD operations, database integration, and form handling through practical assignments.',
+      'Strengthened programming and problem-solving skills through coding exercises and practical assignments. '
     ],
   },
 ];
