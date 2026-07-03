@@ -21,7 +21,7 @@ export default function Experience() {
           transition={{ duration: 0.7, ease: [0.25, 0.1, 0.25, 1] }}
           className="section-title"
         >
-          Work <span className="text-text-primary">Experience</span>
+          Professional <span className="text-text-primary">Training</span>
         </motion.h2>
         <motion.div
           initial={{ opacity: 0, width: 0 }}

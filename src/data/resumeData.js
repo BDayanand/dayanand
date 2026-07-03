@@ -1,7 +1,7 @@
 export const personalInfo = {
   name: 'Dayanand Badiger',
   title: 'Information Science Engineering Graduate',
-  tagline: 'Software Developer • Python • Full Stack Development',
+  tagline: 'Software Developer | Python Full Stack Developer',
   summary:
     "Bachelor of Engineering (B.E.) graduate in Information Science and Engineering with hands-on experience developing software projects. Passionate about building secure, scalable applications using Python and modern web technologies. Currently seeking Software Developer opportunities.",
   phone: '+917676406262',
@@ -12,22 +12,31 @@ export const personalInfo = {
 };
 
 export const skills = {
-  Languages: ['Python', 'JavaScript'],
+  'Programming Languages': ['Python', 'JavaScript', 'Java'],
   'Web Technologies & Frameworks': ['HTML', 'CSS', 'React.js', 'Django'],
-  'Databases & Services': ['SQL', 'Firebase'],
-  'Tools & Platforms': ['Git', 'GitHub', 'Vercel', 'Render'],
-  Concepts: ['Object-Oriented Programming (OOP)', 'REST APIs', 'Authentication', 'Deployment'],
+  Databases: ['SQL', 'MongoDB', 'Firebase'],
+  'Tools & Platforms': ['Git', 'GitHub', 'VS Code', 'Vercel', 'Render'],
+  'Core Concepts': ['Object-Oriented Programming (OOP)', 'REST APIs', 'Authentication & Authorization', 'JWT'],
 };
 
 export const projects = [
   {
+    title: 'MedStock – Medical College Inventory Management System',
+    subtitle: '',
+    bullets: [
+      'Developed a full-stack medical inventory management system using React, Django REST Framework, Firebase Authentication and Firestore.',
+      'Implemented secure authentication, inventory tracking, supplier management, transaction management, and department-wise allocation through RESTful APIs.',
+      'Designed interactive dashboards with inventory analytics, barcode/QR scanning, audit logs, notifications, and export functionality for efficient inventory management.',
+    ],
+    tech: ['React', 'Django REST Framework', 'Firebase Authentication', 'Firestore', 'RESTful APIs'],
+  },
+  {
     title: 'Cybersecurity Framework for Rural Digital Banking',
     subtitle: 'Final Year Project',
     bullets: [
-      'Developed a secure digital banking platform for rural users with offline transaction support, mobile banking features, and multi-factor authentication.',
-      'Built fraud detection and transaction protection using Machine Learning, JWT authentication, OTP verification, and anomaly detection.',
-      'Integrated blockchain-based transaction auditing to ensure secure, transparent, and tamper-resistant financial transaction records.',
-      'Designed an admin dashboard for fraud monitoring, complaint management, user administration, and transaction oversight.',
+      'Developed a secure digital banking platform designed for rural users, enabling safe financial transactions, offline banking support, and real-time fraud prevention.',
+      'Implemented secure authentication and transaction processing using JWT, OTP verification, RESTful APIs, and MongoDB to protect user accounts and financial data.',
+      'Integrated machine learning-based fraud detection, blockchain-backed transaction auditing, and an administrative dashboard to monitor transactions, detect suspicious activities, and improve system security.',
     ],
     tech: ['React.js', 'React Native', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'Machine Learning', 'Hyperledger Fabric'],
   },
@@ -35,10 +44,9 @@ export const projects = [
     title: 'Heart Disease Prediction Using Machine Learning',
     subtitle: '',
     bullets: [
-      'Developed a web-based heart disease prediction system using Python, Flask and machine learning models for real-time risk assessment.',
-      'Implemented Random Forest, SVM, MLP and Neural Network models to predict heart disease based on patient health parameters.',
-      'Built an interactive web interface for patient data input, prediction result visualization, and user-friendly system interaction.',
-      'Designed an admin dashboard for monitoring prediction history, model performance, and overall system analytics.',
+      'Developed a web-based heart disease prediction system using Python, Flask, and machine learning to assess the risk of heart disease based on patient health parameters.',
+      'Implemented and evaluated multiple machine learning models, including Random Forest, SVM, MLP, and Neural Network, to improve prediction accuracy and support data-driven diagnosis.',
+      'Built an interactive interface with patient data management, prediction results, and an admin dashboard.',
     ],
     tech: ['Python', 'Flask', 'Scikit-learn', 'Machine Learning', 'HTML', 'CSS'],
   },
@@ -46,14 +54,12 @@ export const projects = [
 
 export const experience = [
   {
-    role: 'Python Full Stack Development Intern (Training Program)',
+    role: 'Python Full Stack Development Training',
     company: 'QSpiders',
-    period: 'Jan 2026 – May 2026',
+    period: '',
     bullets: [
-      'Gained hands-on experience in Python, Django, HTML, CSS, JavaScript and SQL through full stack development training.',
-      'Developed a full-stack medical inventory management web application with backend development, database integration and authentication features.',
-      'Gained practical exposure to REST API basics, authentication concepts, and application deployment.',
-      'Strengthened problem-solving skills through coding exercises and Data Structures & Algorithms practice in Python.',
+      'Completed comprehensive training in Python, HTML, CSS, JavaScript, SQL and Django with a focus on full stack web development.',
+      'Gained hands-on experience in Django, authentication, CRUD operations, database integration, and form handling through practical assignments.',
     ],
   },
 ];
