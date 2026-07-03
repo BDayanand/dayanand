@@ -4,9 +4,9 @@ import { FiUser, FiAward, FiCode } from 'react-icons/fi';
 import { personalInfo } from '../data/resumeData';
 
 const stats = [
-  { icon: FiCode, label: 'Projects', value: '2+' },
+  { icon: FiCode, label: '3+', value: 'Projects' },
 
-  { icon: FiUser, label: 'Experience', value: 'Internship' },
+  { icon: FiUser, label: 'Experience', value: 'Professional Training' },
 ];
 
 function SectionHeader() {
