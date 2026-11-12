@@ -21,7 +21,7 @@ export default function Experience() {
           transition={{ duration: 0.7, ease: [0.25, 0.1, 0.25, 1] }}
           className="section-title"
         >
-          Professional <span className="text-text-primary">Training</span>
+          Experience & <span className="text-text-primary">Training</span>
         </motion.h2>
         <motion.div
           initial={{ opacity: 0, width: 0 }}
@@ -50,10 +50,12 @@ export default function Experience() {
               <div className="card">
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-3">
                   <h3 className="text-lg font-bold text-text-primary">{exp.role}</h3>
-                  <span className="flex items-center gap-1.5 text-sm text-text-secondary">
-                    <FiCalendar size={14} />
-                    {exp.period}
-                  </span>
+                  {exp.period && (
+                    <span className="flex items-center gap-1.5 text-sm text-text-secondary">
+                      <FiCalendar size={14} />
+                      {exp.period}
+                    </span>
+                  )}
                 </div>
                 <p className="text-accent font-bold text-base mb-4 tracking-wide">{exp.company}</p>
 

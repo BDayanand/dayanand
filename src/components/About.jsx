@@ -6,7 +6,7 @@ import { personalInfo } from '../data/resumeData';
 const stats = [
   { icon: FiCode, label: '3+', value: 'Projects' },
 
-  { icon: FiUser, label: 'Experience', value: 'Professional Training' },
+  { icon: FiUser, label: 'Fleximage Technology', value: 'Software Trainee Engineer' },
 ];
 
 function SectionHeader() {
@@ -54,16 +54,13 @@ export default function About() {
             className="md:col-span-3 space-y-4"
           >
             <p className="text-text-secondary leading-relaxed text-base">
-              {personalInfo.summary}
-            </p>
-            <p className="text-text-secondary leading-relaxed text-base">
               I am a Bachelor of Engineering (B.E.) graduate in Information Science and Engineering with a passion for software development and building practical, user-focused applications. I enjoy solving real-world problems through clean, efficient code and continuously improving my technical and problem-solving skills.
             </p>
             <p className="text-text-secondary leading-relaxed text-base">
               Throughout my academic journey and internship, I gained hands-on experience by developing web applications and software projects, strengthening my understanding of modern development practices and collaborative workflows. I enjoy learning new technologies, exploring better development approaches, and applying them to create reliable and scalable solutions.
             </p>
             <p className="text-text-secondary leading-relaxed text-base">
-              I am currently seeking an entry-level Software Developer opportunity where I can contribute to meaningful projects, work with experienced teams, and continue growing as a software engineer.
+              Currently working as a Software Trainee Engineer at Fleximage Technology, Bengaluru, contributing to desktop application development, database operations with PostgreSQL, debugging, and application maintenance using C# and .NET, while continuing to build robust, scalable, and maintainable software solutions.
             </p>
           </motion.div>
 

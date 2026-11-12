@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { HiMenu, HiX } from 'react-icons/hi';
 
-const sections = ['Home', 'About', 'Skills', 'Projects', 'Experience', 'Education', 'Certifications', 'Contact'];
+const sections = ['Home', 'About', 'Experience', 'Skills', 'Projects', 'Education', 'Certifications', 'Contact'];
 
 export default function Navbar() {
   const [active, setActive] = useState('Home');
